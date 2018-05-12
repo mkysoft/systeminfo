@@ -22,6 +22,7 @@ nano -w /etc/crontab
 At the bottom add:
 
 #Status Script
+
 */5 * * * * root /usr/local/bin/systemstats.sh
 
 5. Manually run the script and test there are no errors:
